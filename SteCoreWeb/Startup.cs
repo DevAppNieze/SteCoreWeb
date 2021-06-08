@@ -33,7 +33,7 @@ namespace SteCoreWeb
 
             
             //manel
-            // nieze
+            // nieze 22
             services.AddDbContext<SteDataBaseWebAllContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //Enablr Cors
